@@ -14,8 +14,11 @@ const Dice = () => {
         indice = soma - 2;
 
         counter[indice] += 1;
+
     };
+
 };
+
 const ShowResults = () => {
 
     for (let i = 0; i < 11; i++){
