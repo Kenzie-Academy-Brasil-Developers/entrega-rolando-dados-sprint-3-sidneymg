@@ -1,7 +1,7 @@
 
 let counter = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-const Dice = () => {
+const dice = () => {
 
     for (let i = 0; i < 1000; i++) {
 
@@ -19,7 +19,7 @@ const Dice = () => {
 
 };
 
-const ShowResults = () => {
+const showResults = () => {
 
     for (let i = 0; i < 11; i++){
 
@@ -49,6 +49,6 @@ const ShowResults = () => {
 
 };
 
-Dice();
+dice();
 
-ShowResults();
+showResults();
