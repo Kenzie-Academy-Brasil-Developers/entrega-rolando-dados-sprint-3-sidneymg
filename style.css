@@ -1,5 +1,18 @@
-* {
-    background-color: black;
-    color: white;
-    font: normal 20pt arial;
+ 
+p {
+    display: inline-block;
+    width: 50px;
+    margin: 0;
+}
+.grafico {
+    display: inline-block;
+    background-color: #808080;
+    height: 20px;
+    background-color: aqua;
+}
+
+@media screen and (min-width: 770px) {
+    h1 {
+        text-align: center;
+    }
 }
